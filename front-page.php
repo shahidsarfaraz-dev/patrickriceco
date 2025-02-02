@@ -258,22 +258,16 @@
         </div>
         <div class="card" data-aos="fade-up" data-aos-duration="1000">
 
-            <span class="d-block fw-bold mb-1 card-title">How We Took This Shopify Brand to An Additional
-                $1,633,357.95 in Sales</span>
-            <p class="mb-3">The client is a Shopify store competing with Blick Art Materials. To say the least, I was
-                excited for the challenge. I begin every project by completing an extensive audit analyzing
-                the website, their competitors, and the strategies available to the client.</p>
+            <span class="d-block fw-bold mb-1 card-title">How SEO Helped This Shopify Store Achieve $1.6M+ in Additional Sales</span>
+            <p class="mb-3">In today’s competitive digital landscape, ranking higher on search engines can make or break an online business. Our client, a Shopify store in the art supplies niche, was struggling with low organic traffic and stagnant revenue. Through in-depth keyword research, technical SEO improvements, and a robust content strategy, we transformed their visibility, leading to exponential growth.</p>
 
             <img src="<?= $theme_url; ?>/assets/img/case-study-1.webp" alt="case-study" width="1100" height="556"
                 style="max-width: 1100px;" class="img-fluid" loading="lazy">
         </div>
         <div class="card" data-aos="fade-up" data-aos-duration="1000">
 
-            <span class="d-block fw-bold mb-1 card-title">$759,131.71 in Additional Organic Revenue in 6
-                Months (From SEO)</span>
-            <p class="mb-3">The client is a Shopify store competing with Blick Art Materials. To say the least, I was
-                excited for the challenge. I begin every project by completing an extensive audit analyzing
-                the website, their competitors, and the strategies available to the client.</p>
+            <span class="d-block fw-bold mb-1 card-title">Organic Traffic Surge: From Flat Growth to 88,926+ Monthly Visitors</span>
+            <p class="mb-3">Before our SEO intervention, the website struggled to gain traction in search results. We implemented a comprehensive on-page and off-page SEO strategy, including high-quality backlinks, optimized metadata, and content clustering. As a result, organic traffic skyrocketed, driving consistent, high-intent visitors to the store, which ultimately converted into revenue.</p>
 
             <img src="<?= $theme_url; ?>/assets/img/case-study-2.webp" alt="case-study" width="1100" height="556"
                 style="max-width: 1100px;" class="img-fluid" loading="lazy">
@@ -281,11 +275,8 @@
         </div>
         <div class="card" data-aos="fade-up" data-aos-duration="1000">
 
-            <span class="d-block fw-bold mb-1 card-title">B2B Shopify Store Growth Case Study: 86.9% Organic
-                Traffic Increase</span>
-            <p class="mb-3">The client is a Shopify store competing with Blick Art Materials. To say the least, I was
-                excited for the challenge. I begin every project by completing an extensive audit analyzing
-                the website, their competitors, and the strategies available to the client.</p>
+            <span class="d-block fw-bold mb-1 card-title">168.87% Revenue Growth: The Power of Data-Driven SEO Strategies</span>
+            <p class="mb-3">By leveraging competitor analysis, conversion rate optimization, and structured data enhancements, the store saw a massive 168.87% increase in revenue. The combination of improved rankings and a better user experience resulted in higher conversion rates. This case study proves that when executed correctly, SEO is not just about traffic—it’s about revenue and long-term business success.</p>
             <img src="<?= $theme_url; ?>/assets/img/case-study-3.webp" alt="case-study" width="1100" height="556"
                 style="max-width: 1100px;" class="img-fluid" loading="lazy">
         </div>

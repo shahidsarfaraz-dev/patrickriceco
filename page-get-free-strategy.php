@@ -21,7 +21,7 @@
                             <span class="d-block h5 fw-bold mb-0">Email</span>
                         </div>
                         <p class="mb-0">Hate contact forms?</p>
-                        <a href="mailto:hellopatrick@example.com">hellopatrick@example.com</a>
+                        <a href="mailto:patrick@patrickriceco.com">patrick@patrickriceco.com</a>
                     </div>
                     <div class="icon-wrapper" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
                         <div class="d-flex align-items-center gap-1 mb-2">
@@ -32,7 +32,7 @@
                             <span class="d-block h5 fw-bold mb-0">Phone</span>
                         </div>
                         <p class="mb-0">Hate contact forms?</p>
-                        <a href="tel:(001)23423451">(001) 2342 3451</a>
+                        <a href="tel:+7703642998">(770) 364 2998</a>
                     </div>
                     <div class="icon-wrapper" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">
                         <div class="d-flex align-items-center gap-1 mb-2">
@@ -45,7 +45,7 @@
                         <p class="mb-0">House: A1154,
                             Lane: Victoria Street
                             London, UK</p>
-                        <a href="https://www.google.com/maps">View on Google Map</a>
+                        <a href="https://maps.app.goo.gl/Q8tACtHp14B1isgd7" target="_blank">View on Google Map</a>
                     </div>
                 </div>
             </div>

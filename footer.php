@@ -44,7 +44,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <span class="d-block fw-bold text-white h6">Let's Connect</span>
                     <div class="footer-social-icons">
-                        <a href="#" class="icon">
+                        <a href="https://www.facebook.com/patrick.rice.507679" class="icon" target="_blank">
                             <img style="max-width: 12px;" src="<?= $theme_url; ?>/assets/img/facebook-footer-icon.webp"
                                 class="img-fluid" width="12" height="14" alt="facebook-icon">
                         </a>
@@ -52,7 +52,7 @@
                             <img style="max-width: 18px;" src="<?= $theme_url; ?>/assets/img/twitter-footer-icon.webp"
                                 class="img-fluid" width="18" height="20" alt="twitter-icon">
                         </a>
-                        <a href="#" class="icon">
+                        <a href="https://www.linkedin.com/in/patrick-s-rice/" class="icon" target="_blank">
                             <img style="max-width: 18px;" src="<?= $theme_url; ?>/assets/img/linkdin-footer-icon.webp"
                                 class="img-fluid" width="18" height="20" alt="linkdin-icon">
                         </a>
