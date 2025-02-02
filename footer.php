@@ -19,8 +19,7 @@
             <div class="row g-3">
                 <div class="col-lg-4 col-sm-6">
                     <span class="d-block text-white fw-bold h5 mb-2">Patrick Rice Co.</span>
-                    <p class="text-white">Launch a business today with our help and get it done with amazing
-                        launch features, websites and more with uifry. </p>
+                    <p class="text-white">A company that cares about your success.</p>
                 </div>
                 <div class="col-lg-2 col-sm-6 col-6">
                     <span class="d-block fw-bold text-white h6">Company</span>
@@ -45,22 +44,22 @@
                 <div class="col-lg-4 col-sm-6">
                     <span class="d-block fw-bold text-white h6">Let's Connect</span>
                     <div class="footer-social-icons">
-                        <div class="icon">
+                        <a href="#" class="icon">
                             <img style="max-width: 12px;" src="<?= $theme_url; ?>/assets/img/facebook-footer-icon.webp"
                                 class="img-fluid" width="12" height="14" alt="facebook-icon">
-                        </div>
-                        <div class="icon">
+                        </a>
+                        <a href="#" class="icon">
                             <img style="max-width: 18px;" src="<?= $theme_url; ?>/assets/img/twitter-footer-icon.webp"
                                 class="img-fluid" width="18" height="20" alt="twitter-icon">
-                        </div>
-                        <div class="icon">
+                        </a>
+                        <a href="#" class="icon">
                             <img style="max-width: 18px;" src="<?= $theme_url; ?>/assets/img/linkdin-footer-icon.webp"
                                 class="img-fluid" width="18" height="20" alt="linkdin-icon">
-                        </div>
-                        <div class="icon">
+                        </a>
+                        <a href="#" class="icon">
                             <img style="max-width: 18px;" src="<?= $theme_url; ?>/assets/img/instagram-footer-icon.webp"
                                 class="img-fluid" width="18" height="20" alt="instagram-icon">
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

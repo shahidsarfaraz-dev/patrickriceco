@@ -38,7 +38,7 @@
                     <img src="<?= $theme_url; ?>/assets/img/email-contact-us.webp" width="74" height="74"
                         class="mx-auto d-block mb-2" alt="">
                     <span class="d-block h6 ">Email</span>
-                    <a href="mailto:">hellopatrick@example.com</a>
+                    <a href="mailto:patrick@patrickriceco.com">patrick@patrickriceco.com</a>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -46,7 +46,7 @@
                     <img src="<?= $theme_url; ?>/assets/img/phone-contact-us.webp" width="78" height="76"
                         class="mx-auto d-block mb-2" alt="">
                     <span class="d-block h6 ">Phone</span>
-                    <a href="mailto:" class="mb-0">+1234 73948 908</a>
+                    <a href="tel:+7703642998" class="mb-0">(770) 364 2998</a>
                 </div>
             </div>
         </div>
