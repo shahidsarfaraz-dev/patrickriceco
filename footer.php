@@ -48,7 +48,7 @@
                             <img style="max-width: 12px;" src="<?= $theme_url; ?>/assets/img/facebook-footer-icon.webp"
                                 class="img-fluid" width="12" height="14" alt="facebook-icon">
                         </a>
-                        <a href="#" class="icon">
+                        <a href="https://twitter.com/patrickriceco" class="icon" target="_blank">
                             <img style="max-width: 18px;" src="<?= $theme_url; ?>/assets/img/twitter-footer-icon.webp"
                                 class="img-fluid" width="18" height="20" alt="twitter-icon">
                         </a>
@@ -56,7 +56,7 @@
                             <img style="max-width: 18px;" src="<?= $theme_url; ?>/assets/img/linkdin-footer-icon.webp"
                                 class="img-fluid" width="18" height="20" alt="linkdin-icon">
                         </a>
-                        <a href="#" class="icon">
+                        <a href="https://www.instagram.com/patrickriceco/" class="icon" target="_blank">
                             <img style="max-width: 18px;" src="<?= $theme_url; ?>/assets/img/instagram-footer-icon.webp"
                                 class="img-fluid" width="18" height="20" alt="instagram-icon">
                         </a>

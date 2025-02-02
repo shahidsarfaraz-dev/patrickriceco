@@ -45,7 +45,7 @@
                         <p class="mb-0">House: A1154,
                             Lane: Victoria Street
                             London, UK</p>
-                        <a href="https://maps.app.goo.gl/Q8tACtHp14B1isgd7" target="_blank">View on Google Map</a>
+                        <a href="#">View on Google Map</a>
                     </div>
                 </div>
             </div>
