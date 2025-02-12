@@ -283,7 +283,7 @@
     </div>
     <img src="<?= $theme_url; ?>/assets/img/case-study-obj-1.webp" alt="object" class="obj obj-1" width="136" height="131" loading="lazy">
 </section>
-<section class="default-sec testimonial-sec overflow-hidden">
+<section class="default-sec testimonial-sec overflow-hidden d-none">
     <div class="container">
         <h2 class="main-title text-center" data-aos="fade-up" data-aos-duration="1000">What Our Clients Say
             About Us</h2>
@@ -725,7 +725,7 @@
     <img src="<?= $theme_url; ?>/assets/img/testimonial-obj-4.webp" alt="obj" width="68" height="68" class="obj obj-4" loading="lazy">
 
 </section>
-<section class="default-sec faq-sec line-bg bg-green">
+<section class="default-sec faq-sec line-bg bg-green d-none">
     <div class="container">
         <h2 class="main-title text-center text-white mb-2" data-aos="fade-up" data-aos-duration="1000">Frequently Asked Questions</h2>
         <p class="text-center text-white mb-4" data-aos="fade-up" data-aos-duration="1000">You have questions? We have answers</p>
