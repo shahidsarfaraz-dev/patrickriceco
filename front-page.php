@@ -271,7 +271,7 @@
             <img src="<?= $theme_url; ?>/assets/img/case-study-3.webp" alt="case-study" width="1100" height="556"
                 style="max-width: 1100px;" class="img-fluid" loading="lazy">
         </div>
-        <a href="./patrickriceco.com/case-study/" class="btn btn-primary d-block mx-auto">Read All Case Studies</a>
+        <a href="/case-study" class="btn btn-primary d-block mx-auto">Read All Case Studies</a>
     </div>
     <img src="<?= $theme_url; ?>/assets/img/case-study-obj-1.webp" alt="object" class="obj obj-1" width="136" height="131" loading="lazy">
 </section>
