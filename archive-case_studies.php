@@ -34,18 +34,20 @@
     <div class="container">
         <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
-                <div class="card shadow mb-3">
+                <div class="card shadow mb-3" title="<?php the_title(); ?>">
                     <div class="row gx-lg-4 gy-lg-0 g-3">
                         <div class="col-lg-6">
-                            <?php if (get_the_post_thumbnail()) : ?>
-                                <img src="<?= get_the_post_thumbnail_url(); ?>" alt="graph-image" class="img-fluid card-img" width="531" height="260" loading="lazy">
-                            <?php else : ?>
-                                <img style="border-radius: 12px;" src="<?= $theme_url; ?>/assets/img/no-image-found.webp" width="531"
-                                    height="260" class="img-fluid" loading="lazy" alt="blog-img">
-                            <?php endif; ?>
+                            <a href="<?php the_permalink(); ?>" class="d-block">
+                                <?php if (get_the_post_thumbnail()) : ?>
+                                    <img src="<?= get_the_post_thumbnail_url(); ?>" alt="graph-image" class="img-fluid card-img" width="531" height="260" loading="lazy">
+                                <?php else : ?>
+                                    <img style="border-radius: 12px;" src="<?= $theme_url; ?>/assets/img/no-image-found.webp" width="531"
+                                        height="260" class="img-fluid" loading="lazy" alt="blog-img">
+                                <?php endif; ?>
+                            </a>
                         </div>
                         <div class="col-lg-6">
-                            <h2 class="h4 main-title mb-3"><?php the_title(); ?></h2>
+                            <a href="<?php the_permalink(); ?>" class="h4 main-title mb-3 d-block"><?php the_title(); ?></a>
                             <p><?php the_excerpt(); ?></p>
                             <a href="<?php the_permalink(); ?>" class="btn btn-primary d-block">Read Full Case Study</a>
                         </div>

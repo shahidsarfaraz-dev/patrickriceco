@@ -806,7 +806,7 @@
             while ($blog_posts_query->have_posts()) : $blog_posts_query->the_post(); ?>
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-post" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="position-relative mb-2">
+                        <a href="<?php the_permalink() ?>"class="position-relative mb-2 d-block" title="<?= the_title(); ?>">
                             <?php if (get_the_post_thumbnail()) : ?>
                                 <img style="border-radius: 12px;" src="<?= get_the_post_thumbnail_url() ?>" width="367"
                                     height="230" class="img-fluid" loading="lazy" alt="blog-img">
@@ -814,10 +814,10 @@
                                 <img style="border-radius: 12px;" src="<?= $theme_url; ?>/assets/img/no-image-found.webp" width="367"
                                     height="230" class="img-fluid" loading="lazy" alt="blog-img">
                             <?php endif; ?>
-                            <a href="<?php the_permalink() ?>" class="play-btn"><img src="<?= $theme_url; ?>/assets/img/icons/play-ico.svg" alt="icon"
-                                    width="21" height="24" loading="lazy"></a>
-                        </div>
-                        <a href="<?php the_permalink() ?>">
+                            <div class="play-btn"><img src="<?= $theme_url; ?>/assets/img/icons/play-ico.svg" alt="icon"
+                                    width="21" height="24" loading="lazy"></div>
+                        </a>
+                        <a href="<?php the_permalink() ?>" title="<?= the_title(); ?>">
                             <span class="h6 fw-bold mb-1 d-block"><?= the_title(); ?></span>
                             <p class="show-line-3"><?= get_the_excerpt(); ?></p>
                         </a>

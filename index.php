@@ -53,11 +53,11 @@ $total_blogs_paged = !empty($wp_query->query_vars['paged']) ? $wp_query->query_v
             $word_count = str_word_count(strip_tags($content));
             $reading_time = ceil($word_count / 200);
         ?>
-            <a href="<?php the_permalink($featured_post) ?>">
+            <a href="<?php the_permalink($featured_post) ?>" title="<?= $featured_post->post_title ?>">
                 <img style="width: 100%;" src="<?= get_the_post_thumbnail_url($featured_post) ?>" width="1140" height="576"
                     class="img-fluid" loading="lazy" alt="">
             </a>
-            <div class="card shadow">
+            <div class="card shadow" title="<?= $featured_post->post_title ?>">
                 <div class="d-flex gap-2 mb-1">
                     <?php
                     $categories = get_the_category();
@@ -116,13 +116,13 @@ $total_blogs_paged = !empty($wp_query->query_vars['paged']) ? $wp_query->query_v
                 $reading_time = ceil($word_count / 200);
             ?>
                 <div class="col-lg-4 col-md-6">
-                    <div class="blog-post" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="position-relative mb-2">
+                    <div class="blog-post" data-aos="fade-up" data-aos-duration="1000" title="<?= the_title(); ?>">
+                        <a href="<?php the_permalink() ?>" class="position-relative mb-2 d-block">
                             <img style="border-radius: 12px;" src="<?= get_the_post_thumbnail_url() ?>" width="367"
                                 height="230" class="img-fluid" loading="lazy" alt="blog-img">
-                            <a href="<?php the_permalink() ?>" class="play-btn"><img src="<?= $theme_url; ?>/assets/img/icons/play-ico.svg" alt="icon"
-                                    width="21" height="24" loading="lazy"></a>
-                        </div>
+                            <div class="play-btn"><img src="<?= $theme_url; ?>/assets/img/icons/play-ico.svg" alt="icon"
+                                    width="21" height="24" loading="lazy"></div>
+                        </a>
                         <a href="<?php the_permalink() ?>">
                             <span class="h6 fw-bold mb-1 d-block"><?= the_title(); ?></span>
                             <p><?= the_excerpt(); ?></p>
