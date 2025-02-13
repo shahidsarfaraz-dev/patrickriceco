@@ -6,16 +6,16 @@
         <div class="row g-3 g-lg-4">
             <div class="col-lg-5">
                 <div class="content-warpper">
-                    <h1 class="main-title text-white" data-aos="fade-right" data-aos-duration="1000">Grow
+                    <h1 class="main-title text-white mb-3" data-aos="fade-right" data-aos-duration="1000">Grow
                         Your
                         Online Sales <span class="underline">With
                             SEO</span>
                     </h1>
-                    <p class="lead text-white mb-4" data-aos="fade-right" data-aos-delay="200"
-                        data-aos-duration="1000">An SEO consultant that gets it. I know people and
-                        algorithms. My expertise has helped companies generate millions in additional
-                        revenue
-                        year-on-year. </p>
+                    <p class="lead text-white mb-2" data-aos="fade-right" data-aos-delay="200"
+                        data-aos-duration="1000">Our team is here to grow your online sales with advanced SEO and Google Ads.
+                        </p>
+                        <p class="lead text-white mb-4" data-aos="fade-right" data-aos-delay="200"
+                        data-aos-duration="1000">We’ve helped generate millions in organic revenue for top e-commerce brands.  We’re the company that cares.</p>
                     <div class="d-flex gap-2 align-items-center flex-wrap" data-aos="fade-right"
                         data-aos-delay="400" data-aos-duration="1000">
                         <a href="<?= home_url('/get-free-strategy') ?>" class="btn btn-primary">Get Free Strategy</a>
@@ -89,8 +89,7 @@
 </section>
 <section class="default-sec service-sec overflow-hidden">
     <div class="container">
-        <h2 class="main-title text-center" data-aos="fade-up" data-aos-duration="1000">Our Services &
-            Process</h2>
+        <h2 class="main-title text-center" data-aos="fade-up" data-aos-duration="1000">Our Revenue Growth Process</h2>
         <div class="row g-3">
             <div class="col-lg-6">
                 <div class="card shadow h-100" data-aos="fade-up" data-aos-duration="1000">
@@ -98,9 +97,7 @@
                         width="73" height="76" loading="lazy">
                     <div>
                         <h3 class="card-title">Collection Expansion</h3>
-                        <p class="mb-3">Get accurate data and stay anonymous from anywhere in the world.
-                            Control your IP changes with no restrictions, no contracts, and traffic that
-                            never expires.</p>
+                        <p class="mb-3">Expand your revenue potential with new collection pages that directly impact your bottom-line. Our propriety technology lets you scale collection creation to capture bottom-of-funnel keywords that drive your bottom-line.  This is what put our company on the map.</p>
                         <a href="<?= home_url('/get-free-strategy') ?>" class="btn btn-outline d-block">Get Started</a>
                     </div>
                 </div>
@@ -111,9 +108,7 @@
                         class="card-img" width="79" height="82" loading="lazy">
                     <div>
                         <h3 class="card-title">Product Optimization</h3>
-                        <p class="mb-3">Get accurate data and stay anonymous from anywhere in the world.
-                            Control your IP changes with no restrictions, no contracts, and traffic that
-                            never expires.</p>
+                        <p class="mb-3">Grow your revenue quickly with SEO with mass product and collection page optimizations.</p>
                         <a href="<?= home_url('/get-free-strategy') ?>" class="btn btn-outline d-block">Get Started</a>
                     </div>
                 </div>
@@ -123,10 +118,8 @@
                     <img src="<?= $theme_url; ?>/assets/img/icons/content-service.webp" alt="icon" class="card-img"
                         width="74" height="77" loading="lazy">
                     <div>
-                        <h3 class="card-title">Content Promotion</h3>
-                        <p class="mb-3">Get accurate data and stay anonymous from anywhere in the world.
-                            Control your IP changes with no restrictions, no contracts, and traffic that
-                            never expires.</p>
+                        <h3 class="card-title">Technical SEO</h3>
+                        <p class="mb-3">Our technical SEO and development team ensure you’re website is bulletproof to Google.  Our team have performed advanced website recoveries from brands who lost half their traffic overnight, and restored them to their rightful glory.</p>
                         <a href="<?= home_url('/get-free-strategy') ?>" class="btn btn-outline d-block">Get Started</a>
                     </div>
                 </div>
@@ -136,10 +129,8 @@
                     <img src="<?= $theme_url; ?>/assets/img/icons/link-service.webp" alt="icon" class="card-img" width="63"
                         height="82" loading="lazy">
                     <div>
-                        <h3 class="card-title">Link Building</h3>
-                        <p class="mb-3">Get accurate data and stay anonymous from anywhere in the world.
-                            Control your IP changes with no restrictions, no contracts, and traffic that
-                            never expires.</p>
+                        <h3 class="card-title">Links & Promotion</h3>
+                        <p class="mb-3">We have developed in-house link building and traffic generations techniques that are jetfuel to your collections and product pages, especially if you are in a competitive industry.</p>
                         <a href="<?= home_url('/get-free-strategy') ?>" class="btn btn-outline d-block">Get Started</a>
                     </div>
                 </div>
@@ -251,7 +242,7 @@
     <div class="container">
         <div class="mx-auto mb-4" style="max-width: 460px;">
             <h2 class="main-title text-white text-center mb-2" data-aos="fade-up" data-aos-duration="1000">
-                Our Case Studies</h2>
+            The Stories That Made Us</h2>
             <p class="text-center text-white mb-0" data-aos="fade-up" data-aos-duration="1000">An SEO
                 consultant that gets it. I know people and algorithms. My expertise has helped companies
                 generate millions.</p>
@@ -273,13 +264,14 @@
                 style="max-width: 1100px;" class="img-fluid" loading="lazy">
 
         </div>
-        <div class="card" data-aos="fade-up" data-aos-duration="1000">
+        <div class="card" data-aos="fade-up mb-5" data-aos-duration="1000">
 
             <span class="d-block fw-bold mb-1 card-title">168.87% Revenue Growth: The Power of Data-Driven SEO Strategies</span>
             <p class="mb-3">By leveraging competitor analysis, conversion rate optimization, and structured data enhancements, the store saw a massive 168.87% increase in revenue. The combination of improved rankings and a better user experience resulted in higher conversion rates. This case study proves that when executed correctly, SEO is not just about traffic—it’s about revenue and long-term business success.</p>
             <img src="<?= $theme_url; ?>/assets/img/case-study-3.webp" alt="case-study" width="1100" height="556"
                 style="max-width: 1100px;" class="img-fluid" loading="lazy">
         </div>
+        <a href="/case-study" class="btn btn-primary d-block mx-auto">Read All Case Studies</a>
     </div>
     <img src="<?= $theme_url; ?>/assets/img/case-study-obj-1.webp" alt="object" class="obj obj-1" width="136" height="131" loading="lazy">
 </section>
