@@ -205,13 +205,8 @@
             </div>
             <div class="col-lg-6">
                 <div class="content-wrapper h-100 d-flex flex-column justify-content-center">
-                    <h2 class="main-title mb-2" data-aos="fade-left" data-aos-duration="1000">Who Is Patrick
-                        Rice?</h2>
-                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">I love search
-                        engines.  I am sure you don't hear that often.  But it's true.  I have
-                        been testing and optimizing websites for search engines for half a decade.  I have
-                        learned how Google processed pages and the thousands of factors leading
-                        to #1 rankings and rapid business growth from Search Engine Optimization.</p>
+                    <h2 class="main-title mb-2" data-aos="fade-left" data-aos-duration="1000">Who We Are</h2>
+                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">We are a team of SEO and Google nerds with over 35 years of experience optimizing websites for search engine marketing.  We have Alex who pioneered e-Commerce SEO since 2008 and taught Patrick the secrets of e-Commerce SEO and inspired our processes.  We have Adam who is a master at entity SEO and Google patents.  We also have Michele who is our content wiz who allows us to create engaging content at scale that converts.</p>
                     <ul class="list-with-icon mb-3 d-flex flex-column">
                         <li class="list-item" data-aos="fade-left" data-aos-duration="1000"
                             data-aos-delay="400">
